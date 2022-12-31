@@ -1,0 +1,92 @@
+.heading {
+    font-size: 4rem;
+    color: black;
+    margin: 25px auto 51px 34px;
+    margin-top: 8rem;
+    padding-left: 2rem;
+}
+.donate-btn{
+    width: fit-content;
+    background-color: #FBA6A6;
+    outline:none;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size:1.6rem;
+    border-radius: 5px;
+    font-weight: bold;
+    border:none;
+    cursor: pointer;
+    border-bottom: 1px solid #FBA6A6;
+    background-color: transparent;
+    transition: all 200ms ease;
+}
+.donate-btn:hover{
+    background-color: #F75454;
+    color:white;
+}
+.all-running-btn-wrapper{
+    margin-left: 5rem;
+    display: flex;
+    gap: 2rem;
+}
+@media (max-width: 558px) {
+    .heading {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        width: 50%;
+    }
+}
+
+.fund-address-wrapper {
+    margin: auto;
+}
+
+@media (max-width: 473px) {
+    .heading {
+        font-size: 4rem;
+    }
+}
+
+.funds-wrapper {
+    width: 100vw;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    overflow: auto;
+    padding-top:2rem;
+    padding-left: 5rem;
+}
+
+@media (max-width: 558px) {
+    .funds-wrapper {
+        margin: 0px 30px 34px;
+    }
+}
+
+@media (max-width: 988px) {
+    .funds-wrapper {
+        margin: 0px auto 34px;
+    }
+}
+/* .fund-heading{
+    padding:1rem 1rem 1rem 1rem;
+} */
+
+/* .fund-address-wrapper{
+    padding:1rem 1rem 1rem 1rem;
+} */
+
+.progess-text {
+    margin: auto;
+    font-size: 5rem;
+    padding: 0px 0px 21px 0px;
+}
+
+
+
+
+/* .fund{
+    margin:1px 1px 1px 1px;
+} */

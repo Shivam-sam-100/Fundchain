@@ -1,0 +1,98 @@
+.form-container {
+    /* height: 85vh; */
+    position: absolute;
+    top:14em;
+    width: 80vw;
+    background-color: hsl(0, 0%, 96%); 
+    margin-left: 10vw;
+    border-radius: 20px;
+    /* margin-top:14em; */
+}
+
+.create-fund-heading {
+    font-size: 4rem;
+    color: black;
+    text-align: center;
+    padding-top:1rem
+}
+.form-fields{
+    margin-top:3rem;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media (max-width: 558px) {
+    .form-fields {
+        margin: 0px auto 0px auto;
+        width: 38%;
+    }
+}
+@media (max-width: 988px) {
+    .form-fields {
+        /* background-color: aquamarine; */
+        margin: 0px auto 0px auto;
+        width: 38%;
+        /* box-shadow: 3rem 3rem #B0B0B0; */
+    }
+}
+
+.charity-label {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 11px 0px 39px 0px;
+}
+
+.box {
+    background-image: trans;
+}
+
+input {
+    /* background: rgba(255, 255, 255, 0.199); */
+    border: none;
+    border-radius: 1rem;
+    height: 4rem;
+    width: 35vw;
+    margin: .1em 1em 0 0;
+    border: 2px solid grey;
+   padding-left:1em;
+   transition: border 200ms ease;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #F75454;
+}
+
+#desc {
+    height: 12rem;
+    width: 12rem;
+}
+
+.create-fund-btn {
+    font-size: 2.2rem;
+    padding:.5em;
+    width: 5em;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom:1rem;
+    background-color: #fee68f;
+    transition: all 200ms ease;
+}
+
+.create-fund-btn:hover {
+    font-size: 2.2rem;
+    padding:.5em;
+    border: none;
+    border-radius: 1rem;
+    background-color: #006876;
+    color: white;
+}
+
+.full-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

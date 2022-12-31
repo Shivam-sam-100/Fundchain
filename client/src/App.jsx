@@ -1,26 +1,28 @@
 import { EthProvider } from "./contexts/EthContext";
-import Intro from "./components/Intro/";
-import Setup from "./components/Setup";
-import Demo from "./components/Demo";
-import Footer from "./components/Footer";
+import LandingPage from "./pages/LandingPage/LandingPage";
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import OngoingPage from "./pages/Ongoing/OngoingPage";
+import CreateFundPage from "./pages/CreateFundPage/CreateFundPage";
+import Description from "./pages/Description/Description";
 
 function App() {
-  return (
-    <EthProvider>
-      <div id="App" >
-        <div className="container">
-          <Intro />
-          <hr />
-          <Setup />
-          <hr />
-          <Demo />
-          <hr />
-          <Footer />
-        </div>
-      </div>
-    </EthProvider>
-  );
+    return (
+        <EthProvider>
+            <BrowserRouter>
+                {/* <Navbar /> */}
+                <Navbar path="/logodark.svg"></Navbar>
+
+                <Routes>
+                    <Route path="/" element={<LandingPage />} />
+                    <Route path="/ongoing" element={<OngoingPage />} />
+                    <Route path="/createfund" element={<CreateFundPage />} />
+                    <Route path="/desc/:id" element={<Description />} />
+                </Routes>
+            </BrowserRouter>
+        </EthProvider>
+    );
 }
 
 export default App;

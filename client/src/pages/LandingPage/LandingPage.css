@@ -1,0 +1,50 @@
+.main-heading{
+    color:black;
+}
+.main-heading1{
+    color:#F75454;
+}
+.heading-button-wrapper{
+    position: absolute;
+    flex-direction: column;
+    gap:5rem;
+    align-items: left;
+    justify-content: center;
+    display: flex;
+    left:10%;
+    width: 30vw;
+    /* width: 50vw; */
+    top:30%;
+}
+
+.main-heading-wrapper{
+    font-size: 6.25rem;
+    text-align: center  ;
+    color:white;
+}
+.buttons-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+}
+
+.create-own-fund-btn{
+    width: fit-content;
+    height: 2.5em;
+    background-color: transparent;
+    border: .1em solid #F75454;
+    outline:none;
+    padding: .5em 2em .5em 2em;
+    font-size:2rem;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 200ms ease;
+    cursor: pointer;
+}
+.create-own-fund-btn:hover{
+    background-color: #F75454;
+    color: white;
+}

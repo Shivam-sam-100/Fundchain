@@ -1,0 +1,54 @@
+.progess-text{
+    font-size: 2rem;
+    color: black;
+}
+.fund-heading{
+    font-size: 3rem;
+    color:black;
+    overflow: ellipsis;
+     text-overflow: ellipsis;
+
+}
+.progress-bar{
+    border: 1px solid black;
+}
+.fund-donate{
+    height: 2em;
+    
+}
+.fund{
+    height: 30em;
+    width: 60em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:2em;
+    padding: 3em;
+    background-color: #F0F0FE;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+}
+.progress{
+    display: flex;
+    flex-direction: column;
+    gap:1em;   
+}
+.fund-donate{
+    height: 2.4em;
+    width: 8em;
+    background-color:#5454F7;
+    color:white;
+    transition: all 200ms ease-in-out;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+.fund-donate:hover{
+    background-color:hsl(240, 58%, 54%);
+   
+}
